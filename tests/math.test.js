@@ -1,5 +1,5 @@
 
-One const { sum, subtract, multiply, divide, average, clamp, isEven } = require('../src/math');
+const { sum, subtract, multiply, divide, average, clamp, isEven } = require('../src/math');
 
 describe('math helpers', () => {
     test('sum works', () => expect(sum(2, 3)).toBe(5));
