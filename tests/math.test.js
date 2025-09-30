@@ -1,3 +1,4 @@
+
 One const { sum, subtract, multiply, divide, average, clamp, isEven } = require('../src/math');
 
 describe('math helpers', () => {
@@ -16,3 +17,4 @@ describe('math helpers', () => {
         expect(isEven(n)).toBe(expected);
     });
 });
+
